@@ -22,7 +22,7 @@ tests share state — the key created in Test 4 is used in Test 5.
 - I thought the first item in the list would always be a real pre-seeded item, but I added a filter just in case one of my test items ended up at the top.
 - I thought sending data to the Edit endpoint would just work, but I had to explicitly tell the API I was sending JSON or it wouldn't accept it.
 
-## Additional tests I would add with more time (for each one I have already tested)
+## Additional tests I would add with more time 
 
 **API Availability**
 - Confirm the response contains a valid Eastern time zone timestamp, not just any string.
@@ -30,18 +30,5 @@ tests share state — the key created in Test 4 is used in Test 5.
 **Authentication**
 - Test an expired API key if the API supports key expiration.
 
-**Item List Retrieval**
-- Confirm every item in the list has a locations array (not just the first item).
-- Confirm onHandQty values are never negative across all locations.
-
-**Item Creation**
-- Test missing itemNumber or itemDesc and assert an appropriate error response.
-- Test special characters and very long strings in itemDesc.
-
 **Item Deletion**
 - Test deleting an itemKey that does not exist and assert the error response.
-
-**Item Editing**
-- Test editing with an invalid UPC format and confirm rejection.
-- Test editing a previously created (non-seeded) item.
-- Test that itemKey cannot be changed during an edit.
