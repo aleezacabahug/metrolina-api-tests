@@ -10,8 +10,7 @@ API_KEY=your_api_key_here
 This file is excluded from source control via `.gitignore` to keep the key secure.
 
 ## Run the tests
-npm test
-
+Run: npm test
 
 Tests run in order (sequentially) because the Item Creation and Item Deletion
 tests share state — the key created in Test 4 is used in Test 5.
