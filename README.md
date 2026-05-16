@@ -7,6 +7,8 @@ npm install
 ## Provide the API key
 Create a `.env` file in the project root with the following:
 API_KEY=your_api_key_here
+
+
 This file is excluded from source control via `.gitignore` to keep the key secure.
 
 ## Run the tests
