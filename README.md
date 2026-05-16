@@ -31,3 +31,7 @@ Run: npm test
 
 **Item Deletion**
 - Test deleting an itemKey that does not exist and assert the error response.
+
+## AI Assistance
+
+AI tools were used in limited ways during this exercise, consistent with the stated guidelines. Specifically, AI was used to look up Jest and Axios syntax (how to structure describe/test blocks and handle async errors), to help debug a test that wasn't catching error responses correctly, and to review a few comments and notes in this README for clarity. All test design decisions, assumptions, and the overall approach reflect my own understanding of the API behavior and what I felt was worth validating.
