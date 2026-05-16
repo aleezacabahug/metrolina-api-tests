@@ -12,9 +12,6 @@ This file is excluded from source control via `.gitignore` to keep the key secur
 ## Run the tests
 Run: npm test
 
-Tests run in order (sequentially) because the Item Creation and Item Deletion
-tests share state — the key created in Test 4 is used in Test 5.
-
 ## Assumptions
 - I thought the Create Item endpoint would send back an object with details about the new item (like a receipt), but it just sends back a simple success message instead.
 - I thought that success message would include the new item's ID so I could reference it later, but it didn't. I had to go fetch the full item list and search for it by name.
