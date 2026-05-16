@@ -1,0 +1,28 @@
+{
+  "name": "metrolina-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleezacabahug/metrolina-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aleezacabahug/metrolina-api-tests/issues"
+  },
+  "homepage": "https://github.com/aleezacabahug/metrolina-api-tests#readme",
+  "devDependencies": {
+    "axios": "^1.16.1",
+    "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
